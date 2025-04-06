@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="React2"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-06 05:04:17 p. m."/>
+        <attribute name="created" value="dXNlcjtERVNLVE9QLUEzMUlJRDQ7MjAyNS0wNC0wNjswMzo1Nzo0MSBwLiBtLjsyOTMy"/>
+        <attribute name="edited" value="dXNlcjtERVNLVE9QLUEzMUlJRDQ7MjAyNS0wNC0wNjswNTowNDoxNyBwLiBtLjsxOzMwMzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="1"/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <assign variable="num2" expression="2"/>
+            <declare name="suma" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="3"/>
+            <output expression="num1" newline="True"/>
+            <output expression="num2" newline="True"/>
+            <while expression="i &lt;= 64">
+                <assign variable="suma" expression="num1+num2"/>
+                <output expression="suma" newline="True"/>
+                <assign variable="num1" expression="num2"/>
+                <assign variable="num2" expression="suma"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

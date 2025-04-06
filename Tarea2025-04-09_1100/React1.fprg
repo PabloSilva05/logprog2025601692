@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="React1"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-06 05:24:42 p. m."/>
+        <attribute name="created" value="dXNlcjtERVNLVE9QLUEzMUlJRDQ7MjAyNS0wNC0wNjswMzoxMzo0NCBwLiBtLjsyOTI3"/>
+        <attribute name="edited" value="dXNlcjtERVNLVE9QLUEzMUlJRDQ7MjAyNS0wNC0wNjswNToyNDo0MiBwLiBtLjsyOzMwMzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <declare name="fact" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="fact" expression="1"/>
+            <output expression="&quot;Ingrese un numero entero&quot;" newline="True"/>
+            <input variable="num"/>
+            <for variable="i" start="1" end="num" direction="inc" step="1">
+                <assign variable="fact" expression="i*fact"/>
+            </for>
+            <output expression="&quot;El factorial del numero es:&quot;" newline="True"/>
+            <output expression="fact" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
